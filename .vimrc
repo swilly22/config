@@ -108,5 +108,12 @@ nnoremap ˚ :m .-2<CR>
 nnoremap <silent> <C-p> :Files<CR>
 nnoremap <silent> <Leader>f :Ag<CR>
 
+" Copy to end of line
+nnoremap Y y$
+
+" Center when searching for next or prev match
+nnoremap n nzz
+nnoremap N Nzz
+
 " W for writing
 command! W  write
